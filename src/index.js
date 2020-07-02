@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'Content-type': 'application/json',
         Accept: 'application/json',
       },
-      body: JSON.stringify(formData),
+      body: JSON.stringify(data),
     };
 
     sendData(configObj);
